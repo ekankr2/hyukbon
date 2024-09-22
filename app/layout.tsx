@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="mx-auto h-20">
+        <header className="mx-auto h-20 sticky border-b border-solid">
           <div className="mx-auto flex items-center h-full w-full md:w-[712px] lg:w-[952px]">
             <nav className="flex flex-row w-full justify-between">
               <h1 className="text-4xl">
@@ -26,23 +26,20 @@ export default function RootLayout({
                   <a href="/">소개</a>
                 </li>
                 <li>
-                  <a href="/">이야기</a>
+                  <a href="/">사업분야</a>
                 </li>
                 <li>
-                  <a href="/">분양 내역</a>
+                  <a href="/">실적</a>
                 </li>
                 <li>
                   <a href="/">채용</a>
-                </li>
-                <li>
-                  <a href="/">이야기</a>
                 </li>
               </ul>
               <div></div>
             </nav>
           </div>
         </header>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
