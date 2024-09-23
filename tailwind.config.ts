@@ -132,6 +132,15 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      keyframes: {
+        "zoom-in": {
+          from: { transform: "scale(1)" },
+          to: { transform: "scale(3)" },
+        },
+        animation: {
+          "zoom-in": "zoom-in 5s ease-in-out forwards",
+        },
+      },
     },
   },
   plugins: [require("autoprefixer")],

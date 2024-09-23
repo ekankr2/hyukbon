@@ -36,17 +36,16 @@ const OPTIONS: EmblaOptionsType = {
 };
 
 const MainPerformanceCarousel = () => {
-  // const [emblaRef] = useEmblaCarousel(OPTIONS, [
-  //   Autoplay({ playOnInit: true, delay: 5000 }),
-  // ]);
-  const [emblaRef] = useEmblaCarousel(OPTIONS);
+  const [emblaRef] = useEmblaCarousel(OPTIONS, [
+    Autoplay({ playOnInit: true, delay: 5000 }),
+  ]);
 
   return (
     <div className="cursor-pointer" ref={emblaRef}>
-      <ul className="flex touch-pan-y flex-nowrap -ml-2.5 md:ml-0 select-none">
+      <ul className="flex touch-pan-y flex-nowrap -ml-2.5 md:ml-0 xl:-ml-4 select-none">
         {dataList.map((data, index) => (
           <li
-            className="relative h-[350px] md:h-[400px] flex min-w-full overflow-hidden pl-3 md:min-w-[427px] md:justify-center"
+            className="relative h-[350px] md:h-[400px] flex min-w-full overflow-hidden pl-3 xl:pl-4 shrink-0 md:min-w-[427px] xl:w-[444px] md:justify-center"
             key={index}
           >
             <div className="shrink-0 overflow-hidden bg-gray-100 flex flex-col w-full relative justify-between object-cover borders rounded-2xl">

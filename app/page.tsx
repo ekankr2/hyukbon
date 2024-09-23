@@ -20,14 +20,14 @@ export default function Home() {
             <Image
               src="/메인이미지-small.jpg"
               alt="main_image"
-              className="brightness-50 md:hidden group-hover:brightness-100 main-duration-300"
+              className="brightness-50 md:hidden group-hover:brightness-100 main-duration-300 "
               height={740}
               width={1316}
             />
             <Image
               src="/메인이미지-big.jpg"
               alt="main_image"
-              className="brightness-50 hidden md:flex group-hover:brightness-100 main-duration-300"
+              className="brightness-50 hidden md:flex group-hover:brightness-100 main-duration-300 animate-zoom-in"
               height={740}
               width={1316}
             />
@@ -103,7 +103,7 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <hr className="mt-8 mb-2" />
+        <hr className="mt-8 mb-2 xl:mb-4" />
         <section className="">
           <div className="flex flex-row items-center justify-between">
             <h2 className="pr-2.5">분양 대행</h2>
