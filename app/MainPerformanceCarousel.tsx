@@ -36,42 +36,47 @@ const OPTIONS: EmblaOptionsType = {
 };
 
 const MainPerformanceCarousel = () => {
-  const [emblaRef] = useEmblaCarousel(OPTIONS, [
-    Autoplay({ playOnInit: true, delay: 5000 }),
-  ]);
+  // const [emblaRef] = useEmblaCarousel(OPTIONS, [
+  //   Autoplay({ playOnInit: true, delay: 5000 }),
+  // ]);
+  const [emblaRef] = useEmblaCarousel(OPTIONS);
 
   return (
     <div className="cursor-pointer" ref={emblaRef}>
       <ul className="flex touch-pan-y flex-nowrap -ml-2.5 md:ml-0">
         {dataList.map((data, index) => (
           <li
-            className="relative h-[304px] md:h-[339px] flex min-w-full overflow-hidden pl-2.5 md:min-w-[50%] md:justify-center"
+            className="relative h-[350px] md:h-[400px] flex min-w-full overflow-hidden pl-3 md:min-w-[427px] md:justify-center"
             key={index}
           >
             <div className="shrink-0 overflow-hidden bg-gray-100 flex flex-col w-full relative justify-between object-cover borders rounded-2xl">
-              <div className="p-4 text-14">
-                <span className="px-2 py-1 bg-white text-14 text-black rounded-md">
-                  공동주택
-                </span>
-                <h3 className="pt-3 text-16 md:text-18">
-                  동대구역 센텀 화성파크드림
-                </h3>
-                <div className="pt-4 md:pt-6 flex items-center">
-                  <h4>위치</h4>
-                  <p className="pl-1">
-                    {" "}
-                    : 경기도 안양시 만안구 안양동 627-1,2,3번지
-                  </p>
+              <div className="p-4 md:p-5.5 xl:px-5 h-full flex flex-col justify-between ">
+                <div className="flex justify-between items-center xl:items-start">
+                  <h3 className="text-18 xl:text-21 pr-2">
+                    광주오포 한양수자인 미스타운하우스
+                  </h3>
+                  <span className="px-2 py-1 shrink-0 font-medium bg-white text-14 text-black rounded-md">
+                    공동주택
+                  </span>
                 </div>
-                <div className="flex items-center">
-                  <h4>규모</h4>
-                  <p className="pl-1">
-                    {" "}
-                    : 지하 6층 ~ 지상 25층, 2개동 (540세대)
-                  </p>
-                </div>
+                <ul className="text-14 lg:text-16">
+                  <li className="pt-5 md:pt-6 flex items-center">
+                    <h4>위치</h4>
+                    <p className="pl-1">
+                      {" "}
+                      : 인천 경제자유구역 정종지구 영종하늘도시 a58bl
+                    </p>
+                  </li>
+                  <li className="flex items-center">
+                    <h4>규모</h4>
+                    <p className="pl-1">
+                      {" "}
+                      : 지하 6층 ~ 지상 25층, 2개동 (540세대)
+                    </p>
+                  </li>
+                </ul>
               </div>
-              <div className="relative w-full h-[55%]">
+              <div className="relative w-full h-3/5 shrink-0">
                 <Image
                   priority={true}
                   fill

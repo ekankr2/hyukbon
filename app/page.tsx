@@ -10,7 +10,7 @@ export default function Home() {
         <section className="pt-6 md:pt-8 lg:pt-4 group select-none text-white">
           <div className="rounded-2xl overflow-hidden relative lg:h-[486px] xl:h-[621px]">
             <div className="absolute top-7 lg:top-12 lg:left-10 xl:left-12 left-6 md:left-8 z-10 text-28">
-              <p className="hidden md:inline-block">
+              <p className="text-21 md:text-28 inline-block">
                 빛나는 성과와 근본적 해결을 중점으로
               </p>
               <h3 className="text-28 md:text-38 font-bold -mt-1">
@@ -18,9 +18,16 @@ export default function Home() {
               </h3>
             </div>
             <Image
-              src="/메인이미지.jpg"
+              src="/메인이미지-small.jpg"
               alt="main_image"
-              className="brightness-50 group-hover:brightness-100 main-duration-300"
+              className="brightness-50 md:hidden group-hover:brightness-100 main-duration-300"
+              height={740}
+              width={1316}
+            />
+            <Image
+              src="/메인이미지-big.jpg"
+              alt="main_image"
+              className="brightness-50 hidden md:flex group-hover:brightness-100 main-duration-300"
               height={740}
               width={1316}
             />
@@ -34,11 +41,11 @@ export default function Home() {
         </section>
         <section className="pt-6 md:pt-0">
           <h2 className="md:hidden">혁본의 사업분야</h2>
-          <div className="pt-3.5 lg:pt-4  text-white">
+          <div className="pt-3.5 md:pt-2.5 lg:pt-4  text-white">
             <ul className="flex flex-wrap flex-col md:flex-row justify-between select-none">
               <li className="bg-gray-100 group rounded-2xl text-16 overflow-hidden w-full h-[200px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-4 top-4 lg:left-10 xl:left-11 lg:top-6 xl:top-9 z-10">
-                  <p>고객 중심의 충실한 수행</p>
+                  <p>고객 중심의 충실한 수행1</p>
                   <h3 className="text-22">분양대행</h3>
                 </div>
                 <Image
