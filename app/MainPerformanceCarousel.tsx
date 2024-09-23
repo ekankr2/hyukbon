@@ -43,7 +43,7 @@ const MainPerformanceCarousel = () => {
 
   return (
     <div className="cursor-pointer" ref={emblaRef}>
-      <ul className="flex touch-pan-y flex-nowrap -ml-2.5 md:ml-0">
+      <ul className="flex touch-pan-y flex-nowrap -ml-2.5 md:ml-0 select-none">
         {dataList.map((data, index) => (
           <li
             className="relative h-[350px] md:h-[400px] flex min-w-full overflow-hidden pl-3 md:min-w-[427px] md:justify-center"

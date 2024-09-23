@@ -103,8 +103,18 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <section className="pt-20">
-          <h2 className="">혁본이 이루어낸 실적들</h2>
+        <hr className="mt-8 mb-2" />
+        <section className="">
+          <div className="flex flex-row items-center justify-between">
+            <h2 className="pr-2.5">분양 대행</h2>
+            <Link
+              href="/"
+              className="flex items-center text-14 font-medium md:text-21 rounded-lg pl-4 py-1.5"
+            >
+              모아보기
+              <FaArrowCircleRight className="ml-1.5" />
+            </Link>
+          </div>
           <div className="pt-10">
             <MainPerformanceCarousel />
           </div>
