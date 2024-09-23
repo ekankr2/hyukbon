@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaArrowCircleRight } from "react-icons/fa";
+import MainPerformanceCarousel from "@/app/MainPerformanceCarousel";
 
 export default function Home() {
   return (
-    <article className="flex flex-col flex-wrap px-3.5 ">
+    <article className="flex flex-col flex-wrap px-3.5 overflow-x-hidden ">
       <div className="w-full max-w-[384px] md:w-[712px] md:max-w-none mx-auto text-26 md:text-30">
         <section className="pt-6 md:pt-8 group select-none text-white">
           <div className="rounded-2xl overflow-hidden relative ">
@@ -97,17 +98,8 @@ export default function Home() {
         </section>
         <section className="pt-20">
           <h2 className="">혁본이 이루어낸 실적들</h2>
-          <div className="pt-6">
-            <ul className="flex flex-nowrap flex-row  md:h-[330px] justify-between">
-              <li className="bg-gray-100 rounded-lg h-[309px] md:w-[242px] md:h-[328px] w-[252px]"></li>
-              <li className="bg-gray-100 rounded-lg h-[309px] md:w-[242px] md:h-[328px] w-[252px]"></li>
-              <li className="bg-gray-100 rounded-lg h-[309px] md:w-[242px] md:h-[328px] w-[252px]"></li>
-            </ul>
-            <div className="text-18 flex justify-center items-center pt-4">
-              <Link className="bg-gray-100 rounded-xl px-4 py-2" href="">
-                더 보기
-              </Link>
-            </div>
+          <div className="pt-10">
+            <MainPerformanceCarousel />
           </div>
         </section>
         <section className="pt-20">
