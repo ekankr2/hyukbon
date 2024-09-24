@@ -32,7 +32,9 @@ export default function Home() {
               width={1316}
             />
             <div className="absolute text-16 lg:text-22 font-medium bottom-6 lg:bottom-9 xl:bottom-10 lg:right-10 right-6 flex justify-between flex-row items-center">
-              <p className="pr-2">회사소개 바로가기</p>
+              <Link href="/about" className="pr-2">
+                회사소개 바로가기
+              </Link>
               <span className="text-22">
                 <FaArrowCircleRight />
               </span>
@@ -45,8 +47,8 @@ export default function Home() {
             <ul className="flex flex-wrap flex-col md:flex-row justify-between select-none">
               <li className="bg-gray-100 group rounded-2xl text-16 overflow-hidden w-full h-[200px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-4 top-4 lg:left-10 xl:left-11 lg:top-6 xl:top-9 z-10">
-                  <p>고객 중심의 충실한 수행1</p>
-                  <h3 className="text-22">분양대행</h3>
+                  <p>고객 중심의 충실한 수행</p>
+                  <h3 className="text-22">다방면의 가치 창출</h3>
                 </div>
                 <Image
                   className="brightness-50 group-hover:brightness-100 main-duration-300"
@@ -56,7 +58,7 @@ export default function Home() {
                   height={340}
                 />
                 <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
-                  <p className="pr-2">분양대행 보러가기</p>
+                  <p className="pr-2">사업분야 바로가기</p>
                   <span className="text-18">
                     <FaArrowCircleRight />
                   </span>
@@ -64,8 +66,8 @@ export default function Home() {
               </li>
               <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[200px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-4 top-4 lg:left-10 xl:left-11 lg:top-6 xl:top-9 z-10">
-                  <p>고객 중심의 충실한 수행</p>
-                  <h3 className="text-22">부동산 개발대행</h3>
+                  <p>신의, 성실, 신뢰 기반의</p>
+                  <h3 className="text-22">전반적 컨슈머 저니</h3>
                 </div>
                 <Image
                   className="brightness-50 group-hover:brightness-100 main-duration-300"
@@ -75,7 +77,7 @@ export default function Home() {
                   height={340}
                 />
                 <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
-                  <p className="pr-2">분양대행 보러가기</p>
+                  <p className="pr-2">업무실적 바로가기</p>
                   <span className="text-18">
                     <FaArrowCircleRight />
                   </span>
@@ -83,8 +85,8 @@ export default function Home() {
               </li>
               <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[200px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-4 top-4 lg:left-10 xl:left-11 lg:top-6 xl:top-9 z-10">
-                  <p>고객 중심의 충실한 수행</p>
-                  <h3 className="text-22">부동산 컨설팅</h3>
+                  <p>A부터 Z까지 모두모두</p>
+                  <h3 className="text-22">창의적인 인재채용</h3>
                 </div>
                 <Image
                   className="brightness-50 group-hover:brightness-100 main-duration-300"
@@ -121,6 +123,64 @@ export default function Home() {
         </section>
         <section className="pt-20">
           <h2 className="">약속과 책임</h2>
+          <h3 className="pt-10 text-24">
+            고객들이 있기에 함께하는 주식회사 혁본
+          </h3>
+          <p className="text-16 pt-1.5">
+            저희 회사의 구성원들은 오로지 “가치 창출”과 “고객 감동”을 위해
+            움직입니다.
+            <br /> 여느 회사와는 격이 다르다고 느끼실 수 있도록 항상 최선과
+            노력을 다하겠습니다.
+          </p>
+          <div className="shadow-xl border mt-8 flex">
+            <div className="w-3/5 p-10 flex items-center justify-center">
+              <Image
+                className="relative"
+                src="/고객중심.png"
+                alt="약속과 책임"
+                width={600}
+                height={400}
+              />
+            </div>
+            <div className="w-2/5 bg-zinc-100 px-10 py-4">
+              <ul className="divide-y text-16 flex flex-col justify-around h-full">
+                <li>
+                  <h4 className="text-18">최대 이익 창출</h4>
+                  <p className="font-light">
+                    다년간 축적된 노하우와 데이터베이스를 통한 고객의 이익 보호
+                    <br />
+                    최소한의 리스크로 최대의 가치를 창출
+                  </p>
+                </li>
+                <li className="pt-3">
+                  <h4 className="text-18">가치의 극대화</h4>
+                  <p className="font-light">
+                    회계사 / 변호사 / 변리사 / 노무사 등의 고문단을 통한 리스크
+                    사전예방
+                    <br />
+                    조직 구성원들과의 소통을 통한 유기적인 업무 플로우 구축
+                  </p>
+                </li>
+                <li className="pt-3">
+                  <h4 className="text-18">신의 성실 윤리</h4>
+                  <p className="font-light">
+                    명문화된 윤리규정의 철저한 준수를 통해 업무 수행 또한 투명한
+                    절차
+                    <br />
+                    사업 참여자 간 상충되는 이해관계에 대한 공정한 조정 및 중재
+                  </p>
+                </li>
+                <li className="pt-3">
+                  <h4 className="text-18">고객의 만족도</h4>
+                  <p className="font-light">
+                    안정성을 기반으로 타사와 차별화된 높은 품질의 서비스 제공
+                    <br />
+                    업무 수행과정 및 결과에 대한 상세한 기록관리
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
         <section className="pt-20">
           <h2 className="">구성원 소개</h2>

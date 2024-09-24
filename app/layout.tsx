@@ -31,16 +31,16 @@ export default function RootLayout({
               </Link>
               <ul className="flex flex-row flex-wrap justify-between text-18 w-3/5">
                 <li className="flex items-center">
-                  <a href="/">회사소개</a>
+                  <Link href="/about">회사소개</Link>
                 </li>
                 <li className="flex items-center">
-                  <a href="/">사업분야</a>
+                  <Link href="/">사업분야</Link>
                 </li>
                 <li className="flex items-center">
-                  <a href="/">분양실적</a>
+                  <Link href="/">분양실적</Link>
                 </li>
                 <li className="flex items-center">
-                  <a href="/">인재채용</a>
+                  <Link href="/">인재채용</Link>
                 </li>
               </ul>
               <div className="text-22 flex items-center">
