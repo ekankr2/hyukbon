@@ -123,17 +123,17 @@ export default function Home() {
         </section>
         <section className="pt-20">
           <h2 className="">약속과 책임</h2>
-          <h3 className="pt-10 text-24">
+          <h3 className="pt-10 text-18 md:text-24">
             고객들이 있기에 함께하는 주식회사 혁본
           </h3>
-          <p className="text-16 pt-1.5">
+          <p className="text-14 md:text-16 pt-1.5">
             저희 회사의 구성원들은 오로지 “가치 창출”과 “고객 감동”을 위해
             움직입니다.
             <br /> 여느 회사와는 격이 다르다고 느끼실 수 있도록 항상 최선과
             노력을 다하겠습니다.
           </p>
-          <div className="shadow-xl border mt-8 flex">
-            <div className="w-3/5 p-10 flex items-center justify-center">
+          <div className="shadow-xl border mt-8 flex flex-col md:flex-row">
+            <div className="md:w-3/5 p-10 flex items-center justify-center">
               <Image
                 className="relative"
                 src="/고객중심.png"
@@ -142,18 +142,18 @@ export default function Home() {
                 height={400}
               />
             </div>
-            <div className="w-2/5 bg-zinc-100 px-10 py-4">
-              <ul className="divide-y text-16 flex flex-col justify-around h-full">
-                <li>
-                  <h4 className="text-18">최대 이익 창출</h4>
+            <div className=" md:w-2/5 bg-zinc-100 px-3.5 md:px-10 py-4">
+              <ul className="divide-y text-14 md:text-16 flex flex-col justify-around h-full">
+                <li className="pb-3 md:pb-0">
+                  <h4 className="text-16 md:text-18">최대 이익 창출</h4>
                   <p className="font-light">
                     다년간 축적된 노하우와 데이터베이스를 통한 고객의 이익 보호
                     <br />
                     최소한의 리스크로 최대의 가치를 창출
                   </p>
                 </li>
-                <li className="pt-3">
-                  <h4 className="text-18">가치의 극대화</h4>
+                <li className="pt-3 pb-3 md:pb-0">
+                  <h4 className="text-16 md:text-18">가치의 극대화</h4>
                   <p className="font-light">
                     회계사 / 변호사 / 변리사 / 노무사 등의 고문단을 통한 리스크
                     사전예방
@@ -161,8 +161,8 @@ export default function Home() {
                     조직 구성원들과의 소통을 통한 유기적인 업무 플로우 구축
                   </p>
                 </li>
-                <li className="pt-3">
-                  <h4 className="text-18">신의 성실 윤리</h4>
+                <li className="pt-3 pb-3 md:pb-0">
+                  <h4 className="text-16 md:text-18">신의 성실 윤리</h4>
                   <p className="font-light">
                     명문화된 윤리규정의 철저한 준수를 통해 업무 수행 또한 투명한
                     절차
@@ -171,7 +171,7 @@ export default function Home() {
                   </p>
                 </li>
                 <li className="pt-3">
-                  <h4 className="text-18">고객의 만족도</h4>
+                  <h4 className="text-16 md:text-18">고객의 만족도</h4>
                   <p className="font-light">
                     안정성을 기반으로 타사와 차별화된 높은 품질의 서비스 제공
                     <br />
