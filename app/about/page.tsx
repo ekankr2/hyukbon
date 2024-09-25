@@ -19,14 +19,14 @@ function Page() {
             </Link>
           </li>
           <li className="w-full md:w-auto py-4 md:pt-0 md:pl-5 md:-mr-8">
-            <Link href="/about/organization">
+            <Link href="/about/hierarchy">
               <h3>HIERARCHY </h3>
               <p className="font-light text-18 lg:text-22">조직도</p>
             </Link>
           </li>
           <li className="w-full md:w-auto md:pl-5 py-4 md:pt-0 md:-mr-6">
-            <Link href="/about/strategy">
-              <h3>STRATEGY</h3>
+            <Link href="/about/philosophy">
+              <h3>PHILOSOPHY</h3>
               <p className="font-light text-18 lg:text-22">경영이념</p>
             </Link>
           </li>
