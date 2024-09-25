@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="mx-auto h-20 sticky border-b border-solid">
+        <header className="mx-auto h-20 sticky border-b top-0 border-solid z-50 bg-white">
           <div className="mx-auto flex items-center h-full w-full md:w-[712px] xl:w-[1316px] lg:w-[952px]">
             <nav className="flex flex-row w-full justify-between">
               <Link href="/" className="flex items-center">
@@ -50,6 +50,7 @@ export default function RootLayout({
           </div>
         </header>
         <main>{children}</main>
+        <footer className="bg-neutral-800 h-[400px]">발바닥</footer>
       </body>
     </html>
   );
