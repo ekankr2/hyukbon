@@ -40,7 +40,12 @@ export default function RootLayout({
                   <Link href="/">분양실적</Link>
                 </li>
                 <li className="flex items-center">
-                  <Link href="/recrute">인재채용</Link>
+                  <Link
+                    href="https://www.incruit.com/company/1678069226/job/"
+                    target="_blank"
+                  >
+                    인재채용
+                  </Link>
                 </li>
               </ul>
               <div className="text-22 flex items-center">
