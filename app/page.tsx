@@ -5,7 +5,7 @@ import MainPerformanceCarousel from "@/app/MainPerformanceCarousel";
 
 export default function Home() {
   return (
-    <article className="flex flex-col flex-wrap px-3.5 md:px-0 overflow-x-hidden ">
+    <article className="flex flex-col flex-wrap px-3.5 md:px-0 overflow-x-hidden">
       <div className="w-full max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
         <section className="pt-6 md:pt-8 lg:pt-4 group select-none text-white">
           <div className="rounded-2xl overflow-hidden relative lg:h-[486px] xl:h-[621px]">
