@@ -34,13 +34,13 @@ export default function RootLayout({
                   <Link href="/about">회사소개</Link>
                 </li>
                 <li className="flex items-center">
-                  <Link href="/">사업분야</Link>
+                  <Link href="/scope">사업분야</Link>
                 </li>
                 <li className="flex items-center">
                   <Link href="/">분양실적</Link>
                 </li>
                 <li className="flex items-center">
-                  <Link href="/">인재채용</Link>
+                  <Link href="/recrute">인재채용</Link>
                 </li>
               </ul>
               <div className="text-22 flex items-center">
