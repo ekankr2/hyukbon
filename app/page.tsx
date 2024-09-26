@@ -69,36 +69,46 @@ export default function Home() {
                 </Link>
               </li>
               <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]">
-                <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
-                  <p>신의, 성실, 신뢰 기반의</p>
-                  <h3 className="text-28"> 컨설팅</h3>
-                </div>
-                <Image
-                  className="brightness-50 group-hover:brightness-100 main-duration-300"
-                  src="/사업분야1.jpg"
-                  alt="분양대행이미지"
-                  width={428}
-                  height={340}
-                />
-                <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
-                  <p className="pr-2">업무실적 바로가기</p>
-                  <span className="text-18">
-                    <FaArrowCircleRight />
-                  </span>
-                </div>
+                <Link href="/performance">
+                  <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
+                    <p>신의, 성실, 신뢰 기반의</p>
+                    <h3 className="text-28"> 업무실적</h3>
+                  </div>
+                  <Image
+                    className="brightness-50 group-hover:brightness-100 main-duration-300"
+                    src="/사업분야1.jpg"
+                    alt="분양대행이미지"
+                    width={428}
+                    height={340}
+                  />
+                  <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
+                    <p className="pr-2">업무실적 바로가기</p>
+                    <span className="text-18">
+                      <FaArrowCircleRight />
+                    </span>
+                  </div>
+                </Link>
               </li>
-              <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]">
+              <li
+                suppressHydrationWarning
+                className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]"
+              >
                 <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
                   <p>A부터 Z까지 모두모두</p>
                   <h3 className="text-28">분양대행</h3>
                 </div>
-                <Image
-                  className="brightness-50 group-hover:brightness-100 main-duration-300"
-                  src="/사업분야1.jpg"
-                  alt="분양대행이미지"
-                  width={428}
-                  height={340}
-                />
+                <Link
+                  href="https://www.incruit.com/company/1678069226/job/"
+                  target="_blank"
+                >
+                  <Image
+                    className="brightness-50 group-hover:brightness-100 main-duration-300"
+                    src="/사업분야1.jpg"
+                    alt="분양대행이미지"
+                    width={428}
+                    height={340}
+                  />
+                </Link>
                 <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
                   <p className="pr-2">분양대행 보러가기</p>
                   <span className="text-18">
