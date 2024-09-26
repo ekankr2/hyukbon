@@ -14,7 +14,7 @@ function Page({ searchParams }: { searchParams: { category: string } }) {
   const category = searchParams.category;
 
   const filteredPerformanceByCategory = performanceList.filter(
-    (property) => !category || property.category === category,
+    (property: any) => !category || property.category === category,
   );
 
   return (
