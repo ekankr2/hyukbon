@@ -4,21 +4,23 @@ import Image from "next/image";
 function Page() {
   return (
     <article className="w-full px-4 md:px-0 pt-20 pb-40 max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
-      <h1 className="text-28 md:text-40">RESEARCH</h1>
+      <h1 className="text-28 md:text-40">SELLING</h1>
       <div className="pt-4 text-16 break-normal">
         <p>
-          양방향 분석을 통한 객관적인 시장 판단력으로
-          <br /> 소비자에 맞춘 완벽한 전략을 개발합니다.
+          성공적인 분양을 위해
+          <br />
+          최상의 솔루션을 제안합니다.
         </p>
       </div>
       <div className="flex flex-row pt-20">
         <div className="w-1/2 relative rounded-xl overflow-hidden">
           <div className="absolute z-10 top-10 left-11 text-white text-18">
-            <h3 className="text-26">RESEARCH BUSINESS</h3>
+            <h3 className="text-26">SELLING BUSINESS</h3>
             <hr className="my-2" />
             <p>
-              객관적인 판단을 기반으로 사업의 타당성을 검토하고
-              <br /> 혁본만의 전략 수립 및 분석을 진행합니다.
+              성공이라는 목표 달성을 위해
+              <br />
+              최선의 노력을 다할 것을 약속합니다.
             </p>
           </div>
           <Image
@@ -31,27 +33,25 @@ function Page() {
         </div>
         <ul className="w-1/2 p-4">
           <li className="flex flex-row items-center justify-start border-t py-4 px-8">
-            <h4 className="w-1/2">REAL ESTATE</h4>
+            <h4 className="w-1/2">주거시설 분양</h4>
             <p className="text-16">
-              사업 타당성을 위한 조사
+              아파트, 주상복합
               <br />
-              분양 전략수립 조사
+              타운하우스 분양대행
             </p>
           </li>
           <li className="flex flex-row items-center justify-start border-t py-4 px-8">
-            <h4 className="w-1/2">BRAND</h4>
+            <h4 className="w-1/2">비주거시설 분양</h4>
             <p className="text-16">
-              기업 이미지 선호 조사
-              <br />
-              건설사 및 브랜드 지표 조사
+              상업시설, 업무시설 등<br />
+              수익형 부동산 분양대행
             </p>
           </li>
           <li className="flex flex-row items-center justify-start border-y py-4 px-8">
-            <h4 className="w-1/2">TREND</h4>
+            <h4 className="w-1/2">토지 분양</h4>
             <p className="text-16">
-              상품 관련 시장 트렌드 조사
-              <br />
-              소비자 상품 선호 조사
+              개발여건, 환금성 등<br />
+              지가 변동성 분석 및 분양대행
             </p>
           </li>
         </ul>

@@ -35,9 +35,9 @@ function Page() {
             </Link>
           </li>
           <li className="w-1/2 md:w-auto md:pl-5 pt-4 md:pt-0">
-            <Link href="/scope/development">
-              <h3>DEVELOPMENT</h3>
-              <p className="font-light text-18 lg:text-22">부동산 개발대행</p>
+            <Link href="/scope/allience">
+              <h3>ALLIENCE</h3>
+              <p className="font-light text-18 lg:text-22">전략적 제휴</p>
             </Link>
           </li>
         </ul>
