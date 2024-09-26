@@ -7,7 +7,10 @@ export default function Home() {
   return (
     <article className="flex flex-col flex-wrap px-3.5 md:px-0 overflow-x-hidden ">
       <div className="w-full max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
-        <section className="pt-3 md:pt-8 lg:pt-4 group select-none text-white">
+        <Link
+          href="/about"
+          className="pt-3 md:pt-8 lg:pt-4 group select-none flex text-white"
+        >
           <div className="rounded-2xl overflow-hidden relative lg:h-[486px] xl:h-[621px]">
             <div className="absolute top-4 md:top-7 lg:top-12 lg:left-10 xl:left-12 left-6 md:left-8 z-10 text-28">
               <p className="text-21 md:text-28 inline-block">
@@ -40,28 +43,30 @@ export default function Home() {
               </span>
             </div>
           </div>
-        </section>
+        </Link>
         <section className="">
           <div className="pt-3 md:pt-2.5 lg:pt-4  text-white">
             <ul className="flex flex-wrap flex-col md:flex-row justify-between select-none">
               <li className="bg-gray-100 group rounded-2xl text-16 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]">
-                <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
-                  <p>고객 중심의 충실한 수행</p>
-                  <h3 className="text-28"> 리서치</h3>
-                </div>
-                <Image
-                  className="brightness-50 group-hover:brightness-100 main-duration-300"
-                  src="/사업분야1.jpg"
-                  alt="분양대행이미지"
-                  width={428}
-                  height={340}
-                />
-                <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
-                  <p className="pr-2">사업분야 바로가기</p>
-                  <span className="text-18">
-                    <FaArrowCircleRight />
-                  </span>
-                </div>
+                <Link href="/scope">
+                  <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
+                    <p>최적의 컨설팅과 솔루션 제공</p>
+                    <h3 className="text-28"> 사업분야</h3>
+                  </div>
+                  <Image
+                    className="brightness-50 group-hover:brightness-100 main-duration-300"
+                    src="/사업분야1.jpg"
+                    alt="분양대행이미지"
+                    width={428}
+                    height={340}
+                  />
+                  <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
+                    <p className="pr-2">사업분야 바로가기</p>
+                    <span className="text-18">
+                      <FaArrowCircleRight />
+                    </span>
+                  </div>
+                </Link>
               </li>
               <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
