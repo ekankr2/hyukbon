@@ -75,11 +75,11 @@ export default function Home() {
                     <h3 className="text-28"> 업무실적</h3>
                   </div>
                   <Image
-                    className="brightness-50 group-hover:brightness-100 main-duration-300"
-                    src="/사업분야1.jpg"
-                    alt="분양대행이미지"
-                    width={428}
-                    height={340}
+                    className="brightness-50 group-hover:brightness-100 main-duration-300 h-full"
+                    src="/업무실적.jpg"
+                    alt="업무실적이미지"
+                    width={700}
+                    height={500}
                   />
                   <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
                     <p className="pr-2">업무실적 바로가기</p>
@@ -102,11 +102,11 @@ export default function Home() {
                   target="_blank"
                 >
                   <Image
-                    className="brightness-50 group-hover:brightness-100 main-duration-300"
-                    src="/사업분야1.jpg"
-                    alt="분양대행이미지"
-                    width={428}
-                    height={340}
+                    className="brightness-50 group-hover:brightness-100 main-duration-300 h-full"
+                    src="/인재채용.jpg"
+                    alt="인재채용이미지"
+                    width={600}
+                    height={400}
                   />
                 </Link>
                 <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">

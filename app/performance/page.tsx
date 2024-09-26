@@ -10,11 +10,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-function Page({
-  searchParams,
-}: {
-  category: "공동주택" | "상업시설" | "오피스텔" | "오피스" | "생활숙박시설";
-}) {
+function Page({ searchParams }: { category: string }) {
   const category = searchParams.category;
 
   const filteredPerformanceByCategory = performanceList.filter(
