@@ -9,7 +9,7 @@ export default function Home() {
       <div className="w-full max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
         <section className="pt-6 md:pt-8 lg:pt-4 group select-none text-white">
           <div className="rounded-2xl overflow-hidden relative lg:h-[486px] xl:h-[621px]">
-            <div className="absolute top-7 lg:top-12 lg:left-10 xl:left-12 left-6 md:left-8 z-10 text-28">
+            <div className="absolute top-4 md:top-7 lg:top-12 lg:left-10 xl:left-12 left-6 md:left-8 z-10 text-28">
               <p className="text-21 md:text-28 inline-block">
                 고객의 가치 실현을 최우선으로
               </p>
@@ -20,7 +20,7 @@ export default function Home() {
             <Image
               src="/메인이미지-small.jpg"
               alt="main_image"
-              className="brightness-50 md:hidden group-hover:brightness-100 main-duration-300 "
+              className="brightness-50 md:hidden h-[240px] group-hover:brightness-100 main-duration-300 "
               height={740}
               width={1316}
             />
@@ -31,21 +31,20 @@ export default function Home() {
               height={740}
               width={1316}
             />
-            <div className="absolute text-16 lg:text-22 font-medium bottom-6 lg:bottom-9 xl:bottom-10 lg:right-10 right-6 flex justify-between flex-row items-center">
+            <div className="absolute text-14 lg:text-22 font-medium bottom-4 md:bottom-6 lg:bottom-9 xl:bottom-10 lg:right-10 right-4  md:right-6 flex justify-between flex-row items-center">
               <Link href="/about" className="pr-2">
                 회사소개 바로가기
               </Link>
-              <span className="text-22">
+              <span className="text-18 md:text-22">
                 <FaArrowCircleRight />
               </span>
             </div>
           </div>
         </section>
-        <section className="pt-6 md:pt-0">
-          <h2 className="md:hidden">혁본의 사업분야</h2>
+        <section className="">
           <div className="pt-3.5 md:pt-2.5 lg:pt-4  text-white">
             <ul className="flex flex-wrap flex-col md:flex-row justify-between select-none">
-              <li className="bg-gray-100 group rounded-2xl text-16 overflow-hidden w-full h-[200px] md:h-[231px] relative md:w-[32.5%]">
+              <li className="bg-gray-100 group rounded-2xl text-16 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
                   <p>고객 중심의 충실한 수행</p>
                   <h3 className="text-28"> 리서치</h3>
@@ -105,16 +104,14 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <section className="mt-10 py-10 flex flex-col items-center relative">
+        <section className="mt-10 py-10 flex flex-col items-start relative">
           <div className="absolute -z-10 left-1/2 right-1/2 top-0 -translate-x-1/2 bg-zinc-100 w-screen h-full"></div>
-          <h2 className="">고객이 있기에 저희가 있습니다.</h2>
-          <p className="text-14 md:text-16 pt-1.5">
-            저희 회사의 구성원들은 오로지 “가치 창출”과 “고객 감동”을 위해
-            움직입니다.
-            <br /> 여느 회사와는 격이 다르다고 느끼실 수 있도록 항상 최선과
-            노력을 다하겠습니다.
+          <h2 className="text-26">고객이 있기에 저희가 있습니다.</h2>
+          <p className="text-14 md:text-16 pt-6 md:pt-2">
+            혁본은 오로지 “가치 창출”과 “고객 감동”을 위해 움직입니다.
+            <br /> 최선을 다해 차별화된 서비스를 제공하겠습니다.
           </p>
-          <div className="mt-8 xl:mt-20">
+          <div className="mt-10 xl:mt-20">
             <ul className="divide-y lg:divide-y-0 lg:divide-x text-14 md:text-16 flex flex-col lg:flex-row">
               <li className="pb-3 md:py-5 lg:pr-5">
                 <h4 className="text-16 md:text-18">최대 이익 창출</h4>
