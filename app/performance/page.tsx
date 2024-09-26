@@ -10,7 +10,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-function Page({ searchParams }: { category: string }) {
+function Page({ searchParams }: { searchParams: { category: string } }) {
   const category = searchParams.category;
 
   const filteredPerformanceByCategory = performanceList.filter(
@@ -19,7 +19,7 @@ function Page({ searchParams }: { category: string }) {
 
   return (
     <article className="w-full px-4 md:px-0 pt-20 pb-40 max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
-      <h1 className="text-28 md:text-40">분양실적</h1>
+      <h1 className="text-28 md:text-40">업무실적</h1>
       <div className="pt-4 text-16 break-normal">
         <p>
           고객 중심의 최대 이익이라는 목표와

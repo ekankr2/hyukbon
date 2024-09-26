@@ -40,7 +40,7 @@ export default function RootLayout({
                   <Link href="/scope">사업분야</Link>
                 </li>
                 <li className="flex items-center">
-                  <Link href="/performance">분양실적</Link>
+                  <Link href="/performance">업무실적</Link>
                 </li>
                 <li className="flex items-center">
                   <Link

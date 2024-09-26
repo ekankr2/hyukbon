@@ -54,8 +54,8 @@ export default function Home() {
                     <h3 className="text-28"> 사업분야</h3>
                   </div>
                   <Image
-                    className="brightness-50 group-hover:brightness-100 main-duration-300"
-                    src="/사업분야1.jpg"
+                    className="brightness-50 group-hover:brightness-100 main-duration-300 h-full"
+                    src="/업무실적.jpg"
                     alt="분양대행이미지"
                     width={428}
                     height={340}
@@ -76,7 +76,7 @@ export default function Home() {
                   </div>
                   <Image
                     className="brightness-50 group-hover:brightness-100 main-duration-300 h-full"
-                    src="/업무실적.jpg"
+                    src="/사업분야.jpg"
                     alt="업무실적이미지"
                     width={700}
                     height={500}
