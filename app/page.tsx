@@ -95,7 +95,7 @@ export default function Home() {
               >
                 <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
                   <p>A부터 Z까지 모두모두</p>
-                  <h3 className="text-28">분양대행</h3>
+                  <h3 className="text-28">인재채용</h3>
                 </div>
                 <Link
                   href="https://www.incruit.com/company/1678069226/job/"
@@ -110,7 +110,7 @@ export default function Home() {
                   />
                 </Link>
                 <div className="absolute text-14 lg:text-16 font-medium bottom-4 right-4 lg:bottom-8 lg:right-10 flex justify-between flex-row items-center">
-                  <p className="pr-2">분양대행 보러가기</p>
+                  <p className="pr-2">인재채용 보러가기</p>
                   <span className="text-18">
                     <FaArrowCircleRight />
                   </span>

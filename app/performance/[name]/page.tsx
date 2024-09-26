@@ -10,7 +10,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-function Page({ params }: { name: string }) {
+function Page({ params }: { params: { name: string } }) {
   const name = decodeURIComponent(params.name);
 
   return (
