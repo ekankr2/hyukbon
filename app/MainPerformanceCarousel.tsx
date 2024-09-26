@@ -30,7 +30,7 @@ const dataList = [
 ];
 
 const OPTIONS: EmblaOptionsType = {
-  dragFree: true,
+  dragFree: false,
   align: "center",
   loop: true,
 };

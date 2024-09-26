@@ -38,7 +38,7 @@ function Page() {
           </li>
         </ul>
       </section>
-      <div className="w-full rounded-lg mt-40 flex  h-[400px] relative overflow-hidden">
+      <div className="w-full rounded-lg mt-10 md:mt-40 md:flex hidden md:h-[400px] relative overflow-hidden">
         <Image
           src="/main.jpg"
           alt=""

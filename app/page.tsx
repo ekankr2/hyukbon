@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <article className="flex flex-col flex-wrap px-3.5 md:px-0 overflow-x-hidden ">
       <div className="w-full max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
-        <section className="pt-6 md:pt-8 lg:pt-4 group select-none text-white">
+        <section className="pt-3 md:pt-8 lg:pt-4 group select-none text-white">
           <div className="rounded-2xl overflow-hidden relative lg:h-[486px] xl:h-[621px]">
             <div className="absolute top-4 md:top-7 lg:top-12 lg:left-10 xl:left-12 left-6 md:left-8 z-10 text-28">
               <p className="text-21 md:text-28 inline-block">
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </section>
         <section className="">
-          <div className="pt-3.5 md:pt-2.5 lg:pt-4  text-white">
+          <div className="pt-3 md:pt-2.5 lg:pt-4  text-white">
             <ul className="flex flex-wrap flex-col md:flex-row justify-between select-none">
               <li className="bg-gray-100 group rounded-2xl text-16 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
@@ -63,7 +63,7 @@ export default function Home() {
                   </span>
                 </div>
               </li>
-              <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[200px] md:h-[231px] relative md:w-[32.5%]">
+              <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
                   <p>신의, 성실, 신뢰 기반의</p>
                   <h3 className="text-28"> 컨설팅</h3>
@@ -82,7 +82,7 @@ export default function Home() {
                   </span>
                 </div>
               </li>
-              <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[200px] md:h-[231px] relative md:w-[32.5%]">
+              <li className="bg-gray-100 group rounded-2xl text-16 mt-3 md:mt-0 overflow-hidden w-full h-[220px] md:h-[231px] relative md:w-[32.5%]">
                 <div className="absolute left-6 top-6 lg:left-10 xl:left-11 lg:top-10 xl:top-11 z-10">
                   <p>A부터 Z까지 모두모두</p>
                   <h3 className="text-28">분양대행</h3>
@@ -111,7 +111,7 @@ export default function Home() {
             혁본은 오로지 “가치 창출”과 “고객 감동”을 위해 움직입니다.
             <br /> 최선을 다해 차별화된 서비스를 제공하겠습니다.
           </p>
-          <div className="mt-10 xl:mt-20">
+          <div className="mt-10 xl:mt-20 md:px-0">
             <ul className="divide-y lg:divide-y-0 lg:divide-x text-14 md:text-16 flex flex-col lg:flex-row">
               <li className="pb-3 md:py-5 lg:pr-5">
                 <h4 className="text-16 md:text-18">최대 이익 창출</h4>
