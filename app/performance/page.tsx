@@ -120,55 +120,57 @@ function Page({ searchParams }: { searchParams: { category: string } }) {
           </NavigationMenu>
         </div>
         <ul className="flex flex-row flex-wrap">
-          {filteredPerformanceByCategory.map((performance: any, index) => (
-            <li
-              className="relative md:w-[337px] md:mr-4 lg:mr-5 h-[350px] hover:opacity-80 main-duration-300 md:h-[400px] w-full flex lg:w-[416px] mt-4 lg:mt-5 overflow-hidden md:justify-center"
-              key={index}
-            >
-              <Link
-                href={`/performance/${performance.name}`}
-                className="shrink-0 overflow-hidden bg-gray-100 flex flex-col w-full relative justify-between object-cover borders rounded-2xl"
+          {filteredPerformanceByCategory.map(
+            (performance: any, index: number) => (
+              <li
+                className="relative md:w-[337px] md:mr-4 lg:mr-5 h-[350px] hover:opacity-80 main-duration-300 md:h-[400px] w-full flex lg:w-[416px] mt-4 lg:mt-5 overflow-hidden md:justify-center"
+                key={index}
               >
-                <div className="p-4 md:p-5.5 xl:px-6 h-full flex flex-col justify-between">
-                  <div className="flex justify-between items-center xl:items-start">
-                    <h3 className="text-18 lg:text-24">{performance.name}</h3>
-                  </div>
-                  <ul className="text-12 lg:text-14">
-                    <li className="pt-5 md:pt-6 flex items-center">
-                      <h4 className="mr-3">위치</h4>
-                      <p className="pl-1"> : {performance.address}</p>
-                    </li>
-                    <li className="flex items-center">
-                      <h4 className="mr-3">규모</h4>
-                      <p className="pl-1"> : {performance.scale}</p>
-                    </li>
-                    {performance.units && (
-                      <li className="flex items-center">
-                        <h4>세대수</h4>
-                        <p className="pl-1"> : {performance.units}</p>
+                <Link
+                  href={`/performance/${performance.name}`}
+                  className="shrink-0 overflow-hidden bg-gray-100 flex flex-col w-full relative justify-between object-cover borders rounded-2xl"
+                >
+                  <div className="p-4 md:p-5.5 xl:px-6 h-full flex flex-col justify-between">
+                    <div className="flex justify-between items-center xl:items-start">
+                      <h3 className="text-18 lg:text-24">{performance.name}</h3>
+                    </div>
+                    <ul className="text-12 lg:text-14">
+                      <li className="pt-5 md:pt-6 flex items-center">
+                        <h4 className="mr-3">위치</h4>
+                        <p className="pl-1"> : {performance.address}</p>
                       </li>
-                    )}
-                    <li className="flex items-center">
-                      <h4>건설사</h4>
-                      <p className="pl-1"> : {performance.contractor}</p>
-                    </li>
-                    <li className="flex items-center">
-                      <h4 className="mr-3">일시</h4>
-                      <p className="pl-1"> : {performance.year}</p>
-                    </li>
-                  </ul>
-                </div>
-                <div className="relative w-full h-3/5 shrink-0">
-                  <Image
-                    priority={true}
-                    fill
-                    src="/실적/센텀화성파크드림.jpg"
-                    alt="main banner"
-                  />
-                </div>
-              </Link>
-            </li>
-          ))}
+                      <li className="flex items-center">
+                        <h4 className="mr-3">규모</h4>
+                        <p className="pl-1"> : {performance.scale}</p>
+                      </li>
+                      {performance.units && (
+                        <li className="flex items-center">
+                          <h4>세대수</h4>
+                          <p className="pl-1"> : {performance.units}</p>
+                        </li>
+                      )}
+                      <li className="flex items-center">
+                        <h4>건설사</h4>
+                        <p className="pl-1"> : {performance.contractor}</p>
+                      </li>
+                      <li className="flex items-center">
+                        <h4 className="mr-3">일시</h4>
+                        <p className="pl-1"> : {performance.year}</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="relative w-full h-3/5 shrink-0">
+                    <Image
+                      priority={true}
+                      fill
+                      src="/실적/센텀화성파크드림.jpg"
+                      alt="main banner"
+                    />
+                  </div>
+                </Link>
+              </li>
+            ),
+          )}
         </ul>
       </section>
     </article>
