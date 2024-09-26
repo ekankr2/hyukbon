@@ -11,9 +11,9 @@ function Page() {
           <br /> 소비자에 맞춘 완벽한 전략을 개발합니다.
         </p>
       </div>
-      <div className="flex flex-row pt-20">
-        <div className="w-1/2 relative rounded-xl overflow-hidden">
-          <div className="absolute z-10 top-10 left-11 text-white text-18">
+      <div className="flex flex-row pt-20 flex-wrap">
+        <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden">
+          <div className="absolute z-10 top-4 md:top-10 left-5 md:left-11 text-white text-16 md:text-18">
             <h3 className="text-26">RESEARCH BUSINESS</h3>
             <hr className="my-2" />
             <p>
@@ -29,26 +29,26 @@ function Page() {
             height={3869}
           />
         </div>
-        <ul className="w-1/2 p-4">
-          <li className="flex flex-row items-center justify-start border-t py-4 px-8">
+        <ul className="w-full md:w-1/2 p-4">
+          <li className="flex flex-row items-center justify-start border-t py-4 md:px-8">
             <h4 className="w-1/2">REAL ESTATE</h4>
-            <p className="text-16">
+            <p className="text-14 md:text-16">
               사업 타당성을 위한 조사
               <br />
               분양 전략수립 조사
             </p>
           </li>
-          <li className="flex flex-row items-center justify-start border-t py-4 px-8">
+          <li className="flex flex-row items-center justify-start border-t py-4 md:px-8">
             <h4 className="w-1/2">BRAND</h4>
-            <p className="text-16">
+            <p className="text-14 md:text-16">
               기업 이미지 선호 조사
               <br />
               건설사 및 브랜드 지표 조사
             </p>
           </li>
-          <li className="flex flex-row items-center justify-start border-y py-4 px-8">
+          <li className="flex flex-row items-center justify-start border-y py-4 md:px-8">
             <h4 className="w-1/2">TREND</h4>
-            <p className="text-16">
+            <p className="text-14 md:text-16">
               상품 관련 시장 트렌드 조사
               <br />
               소비자 상품 선호 조사

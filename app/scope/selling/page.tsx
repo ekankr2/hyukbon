@@ -12,9 +12,9 @@ function Page() {
           최상의 솔루션을 제안합니다.
         </p>
       </div>
-      <div className="flex flex-row pt-20">
-        <div className="w-1/2 relative rounded-xl overflow-hidden">
-          <div className="absolute z-10 top-10 left-11 text-white text-18">
+      <div className="flex flex-wrap flex-row pt-20">
+        <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden">
+          <div className="absolute z-10 left-5 top-4 lg:top-10 lg:left-11 text-white text-16 md:text-18">
             <h3 className="text-26">SELLING BUSINESS</h3>
             <hr className="my-2" />
             <p>
@@ -31,8 +31,8 @@ function Page() {
             height={3869}
           />
         </div>
-        <ul className="w-1/2 p-4">
-          <li className="flex flex-row items-center justify-start border-t py-4 px-8">
+        <ul className="w-full md:w-1/2 px-0 md:p-4">
+          <li className="flex flex-row items-center justify-start border-t py-4 lg:px-8">
             <h4 className="w-1/2">주거시설 분양</h4>
             <p className="text-16">
               아파트, 주상복합
@@ -40,14 +40,14 @@ function Page() {
               타운하우스 분양대행
             </p>
           </li>
-          <li className="flex flex-row items-center justify-start border-t py-4 px-8">
+          <li className="flex flex-row items-center justify-start border-t py-4 lg:px-8">
             <h4 className="w-1/2">비주거시설 분양</h4>
             <p className="text-16">
               상업시설, 업무시설 등<br />
               수익형 부동산 분양대행
             </p>
           </li>
-          <li className="flex flex-row items-center justify-start border-y py-4 px-8">
+          <li className="flex flex-row items-center justify-start border-y py-4 lg:px-8">
             <h4 className="w-1/2">토지 분양</h4>
             <p className="text-16">
               개발여건, 환금성 등<br />
