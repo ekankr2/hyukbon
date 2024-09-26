@@ -9,23 +9,23 @@ import { EmblaOptionsType } from "embla-carousel";
 const dataList = [
   {
     image: "/실적/센텀화성파크드림.jpg",
-    title: "혁본그룹",
-    subTitle: "혁신과 성과를 추구하는 혁본그룹입니다.",
+    title: "혁본",
+    subTitle: "혁신과 성과를 추구하는 혁본입니다.",
   },
   {
     image: "/실적/센텀화성파크드림.jpg",
-    title: "혁본그룹",
-    subTitle: "혁신과 성과를 추구하는 혁본그룹입니다.",
+    title: "혁본",
+    subTitle: "혁신과 성과를 추구하는 혁본입니다.",
   },
   {
     image: "/실적/센텀화성파크드림.jpg",
-    title: "혁본그룹",
-    subTitle: "혁신과 성과를 추구하는 혁본그룹입니다.",
+    title: "혁본",
+    subTitle: "혁신과 성과를 추구하는 혁본입니다.",
   },
   {
     image: "/실적/센텀화성파크드림.jpg",
-    title: "혁본그룹",
-    subTitle: "혁신과 성과를 추구하는 혁본그룹입니다.",
+    title: "혁본",
+    subTitle: "혁신과 성과를 추구하는 혁본입니다.",
   },
 ];
 

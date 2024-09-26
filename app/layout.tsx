@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 export const metadata: Metadata = {
-  title: "혁본그룹",
+  title: "혁본",
   description: "",
 };
 
