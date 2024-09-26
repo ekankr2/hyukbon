@@ -163,7 +163,7 @@ function Page({ searchParams }: { searchParams: { category: string } }) {
                     <Image
                       priority={true}
                       fill
-                      src="/실적/센텀화성파크드림.jpg"
+                      src={`/실적/${performance.name}.jpg`}
                       alt="main banner"
                     />
                   </div>
