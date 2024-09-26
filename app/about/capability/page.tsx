@@ -14,11 +14,11 @@ function Page() {
       </div>
       <div className="mt-28">
         <Image
-          src="/이념사진.png"
+          src="/수행역량.png"
           alt="이념사진"
           width={1526}
           height={928}
-          className=""
+          className="w-4/5 mx-auto"
         />
       </div>
       <div className="mt-12 md:mt-32">

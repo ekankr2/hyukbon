@@ -13,7 +13,13 @@ function Page() {
         </p>
       </div>
       <div className="pt-12">
-        <Image src="/계급도.png" alt="계급도" width={1316} height={1300} />
+        <Image
+          src="/계급도.png"
+          alt="계급도"
+          width={1316}
+          height={1300}
+          className="w-4/5 mx-auto"
+        />
       </div>
     </article>
   );

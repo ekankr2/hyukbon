@@ -18,7 +18,7 @@ function Page() {
           alt="이념사진"
           width={1526}
           height={928}
-          className=""
+          className="w-4/5 mx-auto"
         />
       </div>
       <div className="md:mt-32">
