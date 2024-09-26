@@ -120,7 +120,7 @@ function Page({ searchParams }: { searchParams: { category: string } }) {
           </NavigationMenu>
         </div>
         <ul className="flex flex-row flex-wrap">
-          {filteredPerformanceByCategory.map((performance, index) => (
+          {filteredPerformanceByCategory.map((performance: any, index) => (
             <li
               className="relative md:w-[337px] md:mr-4 lg:mr-5 h-[350px] hover:opacity-80 main-duration-300 md:h-[400px] w-full flex lg:w-[416px] mt-4 lg:mt-5 overflow-hidden md:justify-center"
               key={index}
