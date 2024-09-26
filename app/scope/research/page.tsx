@@ -13,7 +13,7 @@ function Page() {
       </div>
       <div className="flex flex-row pt-20 flex-wrap">
         <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden">
-          <div className="absolute z-10 top-4 md:top-10 left-5 md:left-11 text-white text-16 md:text-18">
+          <div className="absolute z-10  p-4 md:p-6 lg:p-8 text-white text-14 md:text-18">
             <h3 className="text-26">RESEARCH BUSINESS</h3>
             <hr className="my-2" />
             <p>
