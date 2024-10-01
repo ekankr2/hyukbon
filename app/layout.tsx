@@ -60,7 +60,21 @@ export default function RootLayout({
           </div>
         </header>
         <main>{children}</main>
-        <footer className="bg-neutral-800 h-[400px]">발바닥</footer>
+        <footer className="bg-neutral-800 py-14 text-txt-06 flex items-center justify-center ">
+          <div className="max-w-[384px] flex flex-row md:max-w-none md:w-[712px] lg:w-[1000px] xl:w-[1500px]">
+            <div className="w-10/12 flex flex-col">
+              <h4 className="text-30">SHINE ON YOU</h4>
+              <p className="mt-4">
+                주식회사 혁본 ㅣ 경기도 화성시 동탄기흥로 614, 더퍼스트타워2차
+                301호 (영천동) ㅣ 대표번호 : 1522-9432 ㅣ 팩스 : 050-4132-9432
+              </p>
+              <p>Copyright(c) HYUKBON.co.Ltd., All Rights Reserved.</p>
+            </div>
+            <div className="w-2/12 flex flex-col justify-end items-end">
+              <Link href="">관리자 페이지</Link>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );

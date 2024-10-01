@@ -127,7 +127,7 @@ export default function Home() {
             <br /> 최선을 다해 차별화된 서비스를 제공하겠습니다.
           </p>
           <div className="mt-10 xl:mt-20 md:px-0">
-            <ul className="divide-y lg:divide-y-0 lg:divide-x text-14 md:text-16 flex flex-col lg:flex-row">
+            <ul className="divide-y lg:divide-y-0 text-14 md:text-16 flex flex-col lg:flex-row">
               <li className="pb-3 md:py-5 lg:pr-5">
                 <h4 className="text-16 md:text-18">최대 이익 창출</h4>
                 <p className="font-light pt-3">
@@ -159,6 +159,43 @@ export default function Home() {
             </ul>
           </div>
         </section>
+        <section className="relative lg:flex flex-row h-[480px] hidden">
+          <div className="absolute -z-10 left-1/2 right-1/2 top-0 -translate-x-1/2 bg-zinc-100 w-screen h-full flex flex-row">
+            <span className="flex w-1/2 grow-0 relative">
+              <Image
+                src="/혁본사무실.png"
+                alt="혁본사무실"
+                fill
+                className="flex"
+              />
+            </span>
+            <div className="w-1/2 flex-col flex h-full items-start justify-center relative">
+              <div className="bg-black z-10 opacity-80 w-full h-full absolute"></div>
+              <Image src="/혁본사무실2.png" alt="" fill />
+              <div className="z-20 text-white pl-10 xl:pl-20">
+                <h3 className="text-36">고객 중심의 최대 이익</h3>
+                <p className="text-18 mt-6">
+                  혁본은 오로지 고객 중심의 최대 이익이라는 목표와
+                  <br /> 상품의 가치 실현에 무한한 책임감과 희로애락을 느끼는
+                  기업입니다.
+                  <br />
+                  <br /> 20년 이상의 노하우와 데이터 베이스를 통해
+                  <br /> 부동산 마케팅 업계에서 가장 정직하고 실력 있는 기업이
+                  되겠습니다.
+                  <br />
+                  <br /> 갇혀 있는 조직이 아닌 구성원과의 소통, 다양한 협력을
+                  통해
+                  <br /> 유기적 시스템으로 효율성을 극대화합니다.
+                  <br />
+                  <br /> 다년간 전문성을 갖춘 인력들과 시스템으로
+                  <br /> 고객 중심의 분양 파트너로 성공적인 성과를
+                  이뤄내겠습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="pt-10 pb-20">
           <div className="flex flex-row items-center justify-between">
             <h2 className="pr-2.5">사업실적</h2>
