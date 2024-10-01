@@ -34,13 +34,25 @@ export default function Home() {
               height={740}
               width={1316}
             />
-            <div className="absolute text-14 lg:text-22 font-medium bottom-4 md:bottom-6 lg:bottom-9 xl:bottom-10 lg:right-10 right-4  md:right-6 flex justify-between flex-row items-center">
-              <Link href="/about" className="pr-2">
-                회사소개 바로가기
+            <div className="absolute text-14 flex flex-row lg:text-22 font-medium bottom-4 md:bottom-6 lg:bottom-9 xl:bottom-10 lg:right-10 right-4  md:right-6">
+              <Link
+                href="/(주)혁본 지명원.pdf"
+                className="flex hover:text-gray-300 flex-row main-duration-300 items-center pr-10"
+              >
+                <p className="pr-2">회사 지명원 다운로드</p>
+                <span className="text-18 md:text-22">
+                  <FaArrowCircleRight />
+                </span>
               </Link>
-              <span className="text-18 md:text-22">
-                <FaArrowCircleRight />
-              </span>
+              <Link
+                href="/about"
+                className="flex hover:text-gray-300 main-duration-300 flex-row items-center"
+              >
+                <div className="pr-2">회사소개 바로가기</div>
+                <span className="text-18 md:text-22">
+                  <FaArrowCircleRight />
+                </span>
+              </Link>
             </div>
           </div>
         </Link>

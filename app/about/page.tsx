@@ -13,9 +13,9 @@ function Page() {
       <section className="pt-20 md:pt-32">
         <ul className="flex divide-y md:divide-y-0 justify-between md:divide-x-2 divide-gray-200 flex-row text-28 md:text-22 lg:text-28 flex-wrap">
           <li className="w-full md:w-auto pb-4 md:pb-0">
-            <Link href="/about/ceo">
+            <Link href="/about/greetings">
               <h3>GREETING</h3>
-              <p className="font-light text-18 lg:text-22">CEO 인사말</p>
+              <p className="font-light text-18 lg:text-22">인사말</p>
             </Link>
           </li>
           <li className="w-full md:w-auto py-4 md:pt-0 md:pl-5 md:-mr-8">
@@ -39,13 +39,52 @@ function Page() {
         </ul>
       </section>
       <div className="w-full rounded-lg mt-10 md:mt-40 md:flex hidden md:h-[400px] relative overflow-hidden">
-        <Image
-          src="/main.jpg"
-          alt=""
-          width={2000}
-          height={1000}
-          className="absolute w-full h-full object-cover object-top"
-        />
+        <div className="flex relative w-1/2">
+          <Image
+            src="/혁본사무실.png"
+            alt=""
+            fill
+            className="relative flex w-full h-full"
+          />
+        </div>
+        <div className="w-1/2 relative">
+          <div className="bg-black opacity-80 z-10 absolute h-full w-full top-0"></div>
+          <div className="z-20 absolute p-10 text-white flex flex-col h-full">
+            <p className="text-18">회사 연혁</p>
+            <ul className="border-l border-solid pl-4 text-16 h-full flex flex-col justify-between py-2 mt-4">
+              <li className="flex">
+                <p className="pr-6">2023.07.</p>
+                <p>본사 이전</p>
+              </li>
+              <li className="flex">
+                <p className="pr-6">2023.07.</p>
+                <p>주택건설사업자등록</p>
+              </li>
+              <li className="flex">
+                <p className="pr-6">2023.07.</p>
+                <p>납입 자본금 3억원 증자</p>
+              </li>
+              <li className="flex">
+                <p className="pr-6">2023.07.</p>
+                <p>한국부동산마케팅협회 회원사 등록</p>
+              </li>
+              <li className="flex">
+                <p className="pr-6">2023.07.</p>
+                <p>1군 브랜드 시공사 협력업체 등록</p>
+              </li>
+              <li className="flex">
+                <p className="pr-6">2023.07.</p>
+                <p>부동산 마케팅업을 목적으로 ㈜혁본 창립</p>
+              </li>
+            </ul>
+          </div>
+          <Image
+            src="/혁본사무실2.png"
+            alt=""
+            fill
+            className="relative flex w-full h-full"
+          />
+        </div>
       </div>
     </article>
   );
