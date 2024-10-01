@@ -7,23 +7,23 @@ function Page() {
     <article className="w-full px-4 md:px-0 pt-20 pb-40 max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
       <div className="hidden xl:fixed xl:inline-block left-10 top-40 rounded overflow-hidden">
         <Link
-          href="/about"
+          href="/scope"
           className="w-full flex h-full bg-gray-200 p-10 text-18"
         >
-          회사소개
+          사업분야
         </Link>
         <ul className="pl-3 pt-1 divide-y-2 text-16">
           <li className="py-2">
-            <Link href="/greetings">인사말</Link>
+            <Link href="/scope/research">리서치 및 시장조사</Link>
           </li>
           <li className="py-2">
-            <Link href="/hierarchy">조직도</Link>
+            <Link href="/scope/consulting">마케팅 컨설팅 및 기획</Link>
           </li>
           <li className="py-2">
-            <Link href="/philosophy">경영이념</Link>
+            <Link href="/scope/selling">부동산 분양대행</Link>
           </li>
           <li className="py-2">
-            <Link href="/capability">사업역량</Link>
+            <Link href="/scope/allience">전략적 제휴</Link>
           </li>
         </ul>
       </div>
@@ -58,25 +58,25 @@ function Page() {
           <li className="flex flex-row items-center justify-start border-t py-4 lg:px-8">
             <h4 className="w-1/2">환경분석</h4>
             <p className="text-16">
-              사업 타당성을 위한 조사
+              지역 특성 및 동향 분석
               <br />
-              분양 전략수립 조사
+              상품 특화 방향 분석
             </p>
           </li>
           <li className="flex flex-row items-center justify-start border-t py-4 lg:px-8">
             <h4 className="w-1/2">전략수립</h4>
             <p className="text-16">
-              기업 이미지 선호 조사
+              마케팅 사례 및 타겟 조사
               <br />
-              건설사 및 브랜드 지표 조사
+              성공 전략 계획 수립
             </p>
           </li>
           <li className="flex flex-row items-center justify-start border-y py-4 lg:px-8">
             <h4 className="w-1/2">대안제시</h4>
             <p className="text-16">
-              상품 관련 시장 트렌드 조사
+              지역적 특화 방안 모색
               <br />
-              소비자 상품 선호 조사
+              입지대비 최적의 상품 판단
             </p>
           </li>
         </ul>

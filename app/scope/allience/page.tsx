@@ -7,23 +7,23 @@ function Page() {
     <article className="w-full px-4 md:px-0 pt-20 pb-40 max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
       <div className="hidden xl:fixed xl:inline-block left-10 top-40 rounded overflow-hidden">
         <Link
-          href="/about"
+          href="/scope"
           className="w-full flex h-full bg-gray-200 p-10 text-18"
         >
-          회사소개
+          사업분야
         </Link>
         <ul className="pl-3 pt-1 divide-y-2 text-16">
           <li className="py-2">
-            <Link href="/greetings">인사말</Link>
+            <Link href="/scope/research">리서치 및 시장조사</Link>
           </li>
           <li className="py-2">
-            <Link href="/hierarchy">조직도</Link>
+            <Link href="/scope/consulting">마케팅 컨설팅 및 기획</Link>
           </li>
           <li className="py-2">
-            <Link href="/philosophy">경영이념</Link>
+            <Link href="/scope/selling">부동산 분양대행</Link>
           </li>
           <li className="py-2">
-            <Link href="/capability">사업역량</Link>
+            <Link href="/scope/allience">전략적 제휴</Link>
           </li>
         </ul>
       </div>
@@ -35,24 +35,61 @@ function Page() {
           자체 프로젝트의 안정성을 높이고 있습니다.
         </p>
       </div>
-      <div className="flex flex-row flex-wrap pt-20">
+      <div className="flex flex-row flex-wrap items-center pt-20">
+        <div className="w-full md:w-1/2 flex flex-col items-center">
+          <h3>ALLIANCE LIST</h3>
+          <p>클라이언트 및 협력사</p>
+          <p className="text-22 leading-loose flex mt-10">
+            고객이 신뢰 할 수 있는 기업,
+            <br />
+            믿고 의지 할 수 있는 사업 파트너
+            <br />
+            함께 이루고 노력하겠습니다
+            <br /> 고객만족에 최선을 다하며
+            <br /> 사업 파트너로서 최선을 다하겠습니다.
+            <br />
+            <br /> 현재에 만족하지 않고 더 나은 성과를 위해
+            <br /> 노력할 것을 약속 드립니다. <br />
+            <br />
+            감사합니다.
+          </p>
+        </div>
         <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden">
           <Image src="/협력사.png" alt="" width={5863} height={3869} />
         </div>
-        <p className="w-full md:w-1/2 text-26 leading-loose flex items-center justify-center p-4">
-          고객이 신뢰 할 수 있는 기업,
-          <br />
-          믿고 의지 할 수 있는 사업 파트너
-          <br />
-          함께 이루고 노력하겠습니다
-          <br /> 고객만족에 최선을 다하며
-          <br /> 사업 파트너로서 최선을 다하겠습니다.
-          <br />
-          <br /> 현재에 만족하지 않고 더 나은 성과를 위해
-          <br /> 노력할 것을 약속 드립니다. <br />
-          <br />
-          감사합니다.
-        </p>
+      </div>
+      <div className="flex border-t border-solid mt-20 flex-row flex-wrap items-center pt-20">
+        <div className="w-full md:w-1/2 flex flex-col items-center">
+          <h3>LICENSE</h3>
+          <p>주택건설사업자등록증</p>
+        </div>
+        <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden">
+          <Image
+            src="/주택건설사업자등록증.png"
+            alt=""
+            width={5863}
+            height={3869}
+          />
+        </div>
+      </div>
+      <div className="flex border-t border-solid mt-20 flex-row flex-wrap items-center pt-20">
+        <div className="w-full md:w-1/2 flex flex-col items-center">
+          <h3>MEMBERSHIP</h3>
+          <p>한국부동산마케팅협회 공식 회원사</p>
+          <p className="text-22 leading-loose flex mt-10">
+            한국부동산마케팅협회의 회원사로서
+            <br />
+            분양대행자 법정교육을 통한
+            <br />
+            기본소양과 판매윤리를 투명하게 지키며
+            <br /> 리스크 없는 고객의 최대 이익을
+            <br />
+            위해 끊임 없이 혁신을 거듭하겠습니다.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden">
+          <Image src="/회원사 1.png" alt="" width={5863} height={3869} />
+        </div>
       </div>
     </article>
   );

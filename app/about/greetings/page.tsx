@@ -14,16 +14,16 @@ function Page() {
         </Link>
         <ul className="pl-3 pt-1 divide-y-2 text-16">
           <li className="py-2">
-            <Link href="/greetings">인사말</Link>
+            <Link href="/about/greetings">인사말</Link>
           </li>
           <li className="py-2">
-            <Link href="/hierarchy">조직도</Link>
+            <Link href="/about/hierarchy">조직도</Link>
           </li>
           <li className="py-2">
-            <Link href="/philosophy">경영이념</Link>
+            <Link href="/about/philosophy">경영이념</Link>
           </li>
           <li className="py-2">
-            <Link href="/capability">사업역량</Link>
+            <Link href="/about/capability">사업역량</Link>
           </li>
         </ul>
       </div>

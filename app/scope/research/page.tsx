@@ -5,25 +5,25 @@ import Link from "next/link";
 function Page() {
   return (
     <article className="w-full px-4 md:px-0 pt-20 pb-40 max-w-[384px] md:w-[712px] lg:w-[948px] xl:w-[1316px] md:max-w-none mx-auto text-26 md:text-30">
-      <div className="hidden xl:inline-block xl:fixed left-5 top-40 rounded overflow-hidden">
+      <div className="hidden xl:fixed xl:inline-block left-10 top-40 rounded overflow-hidden">
         <Link
-          href="/about"
+          href="/scope"
           className="w-full flex h-full bg-gray-200 p-10 text-18"
         >
           사업분야
         </Link>
         <ul className="pl-3 pt-1 divide-y-2 text-16">
           <li className="py-2">
-            <Link href="/greetings">인사말</Link>
+            <Link href="/scope/research">리서치 및 시장조사</Link>
           </li>
           <li className="py-2">
-            <Link href="/hierarchy">조직도</Link>
+            <Link href="/scope/consulting">마케팅 컨설팅 및 기획</Link>
           </li>
           <li className="py-2">
-            <Link href="/philosophy">경영이념</Link>
+            <Link href="/scope/selling">부동산 분양대행</Link>
           </li>
           <li className="py-2">
-            <Link href="/capability">사업역량</Link>
+            <Link href="/scope/allience">전략적 제휴</Link>
           </li>
         </ul>
       </div>
