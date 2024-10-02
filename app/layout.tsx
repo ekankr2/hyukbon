@@ -43,7 +43,7 @@ export default function RootLayout({
                   <Link href="/performance">업무실적</Link>
                 </li>
                 <li className="flex items-center">
-                  <Link href="/" target="_blank">
+                  <Link href="/recruite">
                     인재채용
                   </Link>
                 </li>

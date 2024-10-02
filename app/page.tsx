@@ -110,7 +110,7 @@ export default function Home() {
                   <h3 className="text-28">인재채용</h3>
                 </div>
                 <Link
-                  href="https://www.incruit.com/company/1678069226/job/"
+                  href="/recruite"
                   target="_blank"
                 >
                   <Image
