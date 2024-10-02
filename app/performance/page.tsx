@@ -164,7 +164,7 @@ function Page({ searchParams }: { searchParams: { category: string } }) {
                       priority={true}
                       fill
                       src={`/실적/${performance.name}.jpg`}
-                      alt="main banner"
+                      alt={performance.name}
                     />
                   </div>
                 </Link>
