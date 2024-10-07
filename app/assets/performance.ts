@@ -101,7 +101,7 @@ const performanceList: any = [
   },
   {
     category: "공동주택",
-    name: "원주 기업도시 EG The1 2차",
+    name: "원주기업도시 EG The1 2차",
     address: "강원도 원주시 지정면 가곡리 원주기업도시 2-1BL",
     units: "776세대",
     scale: "지하 2층 ~ 지상 29층, 7개동",
