@@ -37,7 +37,7 @@ function Page() {
       </div>
       <div className="pt-12">
         <Image
-          src="/조직도.png"
+          src="/hierachy.png"
           alt="조직도"
           width={1316}
           height={1300}
