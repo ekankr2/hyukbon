@@ -126,8 +126,7 @@ function Page({ searchParams }: { searchParams: { category: string } }) {
                 className="relative md:w-[337px] md:mr-4 lg:mr-5 h-[350px] hover:opacity-80 main-duration-300 md:h-[400px] w-full flex lg:w-[416px] mt-4 lg:mt-5 overflow-hidden md:justify-center"
                 key={index}
               >
-                <Link
-                  href={`/performance/${performance.name}`}
+                <div
                   className="shrink-0 overflow-hidden bg-gray-100 flex flex-col w-full relative justify-between object-cover borders rounded-2xl"
                 >
                   <div className="p-4 md:p-5.5 xl:px-6 h-full flex flex-col justify-between">
@@ -167,7 +166,7 @@ function Page({ searchParams }: { searchParams: { category: string } }) {
                       alt={performance.name}
                     />
                   </div>
-                </Link>
+                </div>
               </li>
             ),
           )}

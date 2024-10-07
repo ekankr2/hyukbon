@@ -212,7 +212,7 @@ export default function Home() {
           <div className="flex flex-row items-center justify-between">
             <h2 className="pr-2.5">사업실적</h2>
             <Link
-              href="/"
+              href="/performance"
               className="flex items-center text-14 font-medium md:text-21 rounded-lg pl-4 py-1.5"
             >
               모아보기
