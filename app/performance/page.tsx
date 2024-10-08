@@ -22,9 +22,8 @@ function Page({ searchParams }: { searchParams: { category: string } }) {
       <h1 className="text-28 md:text-40">업무실적</h1>
       <div className="pt-4 text-16 break-normal">
         <p>
-          고객 중심의 최대 이익이라는 목표와
-          <br /> 상품의 가치 실현에 무한한 책임감과 희로애락을 느끼는
-          기업입니다.
+          고객의 상품 가치 격상 및 활성화를 위해
+          <br /> 투입부터 마지막까지 최선을 다하여 책임지는 기업입니다.
         </p>
       </div>
 
