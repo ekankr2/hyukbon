@@ -64,12 +64,12 @@ export default function RootLayout({
                             <RxHamburgerMenu className="text-22"/>
                         </label>
                         <input type="checkbox" id="menu-toggle" className="hidden peer"/>
-                        <ul className="absolute w-screen top-10 p-0 bg-white text-18 z-50 -left-4 right-0 shadow
+                        <ul className="absolute w-screen top-10 p-0 bg-white text-22 z-50 -left-4 right-0 shadow
           max-h-0 overflow-hidden peer-checked:p-5 peer-checked:max-h-screen">
-                            <li className="border-b my-2"><Link href="/about">회사소개 바로가기</Link></li>
-                            <li className="border-b my-2"><Link href="/scope">사업분야 바로가기</Link></li>
-                            <li className="border-b my-2"><Link href="/performance">업무실적 바로가기</Link></li>
-                            <li className="border-b my-2"><Link href="/recruite">인재채용 바로가기</Link></li>
+                            <li className="border-b my-4"><Link href="/about">회사소개</Link></li>
+                            <li className="border-b my-4"><Link href="/scope">사업분야</Link></li>
+                            <li className="border-b my-4"><Link href="/performance">업무실적</Link></li>
+                            <li className="border-b my-4"><Link href="/recruite">인재채용</Link></li>
                         </ul>
                     </div>
                 </nav>
