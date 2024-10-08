@@ -53,27 +53,27 @@ function Page() {
             <p className="text-18">회사 연혁</p>
             <ul className="border-l border-solid pl-4 text-16 h-full flex flex-col justify-between py-2 mt-4">
               <li className="flex">
-                <p className="pr-6">2023.07.</p>
-                <p>본사 이전</p>
+                <p className="pr-6">2023. 07</p>
+                <p>본사 이전 “경기도 화성시 동탄기흥로 614</p>
               </li>
               <li className="flex">
-                <p className="pr-6">2023.07.</p>
+                <p className="pr-6">2019. 11</p>
                 <p>주택건설사업자등록</p>
               </li>
               <li className="flex">
-                <p className="pr-6">2023.07.</p>
+                <p className="pr-6">2019. 10</p>
                 <p>납입 자본금 3억원 증자</p>
               </li>
               <li className="flex">
-                <p className="pr-6">2023.07.</p>
+                <p className="pr-6">2019. 09</p>
                 <p>한국부동산마케팅협회 회원사 등록</p>
               </li>
               <li className="flex">
-                <p className="pr-6">2023.07.</p>
+                <p className="pr-6">2018. 03</p>
                 <p>1군 브랜드 시공사 협력업체 등록</p>
               </li>
               <li className="flex">
-                <p className="pr-6">2023.07.</p>
+                <p className="pr-6">2015. 06</p>
                 <p>부동산 마케팅업을 목적으로 ㈜혁본 창립</p>
               </li>
             </ul>

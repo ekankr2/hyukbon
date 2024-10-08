@@ -136,7 +136,7 @@ export default function Home() {
           <h2 className="text-26">고객이 있기에 저희가 있습니다.</h2>
           <p className="text-14 md:text-16 pt-6 md:pt-2">
             혁본은 오로지 “가치 창출”과 “고객 감동”을 위해 움직입니다.
-            <br /> 최선을 다해 차별화된 서비스를 제공하겠습니다.
+            <br /> 최선을 다해 차별화된 마케팅 서비스를 제공하겠습니다.
           </p>
           <div className="mt-10 xl:mt-20 md:px-0">
             <ul className="lg:divide-y-0 text-14 md:text-16 flex flex-col lg:flex-row">
@@ -155,7 +155,7 @@ export default function Home() {
               <li className=" py-3 md:py-5 lg:px-5 border-b">
                 <h4 className="text-16 md:text-18">신의 성실 윤리</h4>
                 <p className="font-light pt-3">
-                  철저한 윤리규정 준수를 통한 투명한 업무 수행<br/>고객의 이익을 우선시하는 조직별 조정 및 중재
+                  철저한 윤리규정 준수를 통한 투명한 업무 수행<br/>고객의 이익을 우선시하는 운영 방안 기획
                 </p>
               </li>
               <li className="pt-3 md:pt-5 lg:pl-5">
@@ -169,7 +169,7 @@ export default function Home() {
         </section>
         <section className="relative lg:flex flex-row h-[480px] hidden">
           <div className="absolute -z-10 left-1/2 right-1/2 top-0 -translate-x-1/2 bg-zinc-100 w-screen h-full flex flex-row">
-            <span className="flex w-1/2 grow-0 relative">
+            <span className="flex w-5/12 grow-0 relative">
               <Image
                 src="/혁본사무실.png"
                 alt="혁본사무실"
@@ -177,8 +177,8 @@ export default function Home() {
                 className="flex"
               />
             </span>
-            <div className="w-1/2 flex-col flex h-full items-start justify-center relative">
-              <div className="bg-black z-10 opacity-80 w-full h-full absolute"></div>
+            <div className="w-7/12 flex-col flex h-full items-start justify-center relative">
+              <div className="bg-black z-10 opacity-70 w-full h-full absolute"></div>
               <Image src="/혁본사무실2.png" alt="" fill />
               <div className="z-20 text-white pl-10 xl:pl-20">
                 <h3 className="text-36">고객 중심의 최대 이익</h3>
