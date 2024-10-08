@@ -139,20 +139,20 @@ export default function Home() {
             <br /> 최선을 다해 차별화된 서비스를 제공하겠습니다.
           </p>
           <div className="mt-10 xl:mt-20 md:px-0">
-            <ul className="divide-y lg:divide-y-0 text-14 md:text-16 flex flex-col lg:flex-row">
-              <li className="pb-3 md:py-5 lg:pr-5">
+            <ul className="lg:divide-y-0 text-14 md:text-16 flex flex-col lg:flex-row">
+              <li className="pb-3 md:py-5 lg:pr-5 border-b">
                 <h4 className="text-16 md:text-18">최대 이익 창출</h4>
                 <p className="font-light pt-3">
                   축적된 노하우와 데이터베이스를 통해<br/> 최소의 비용으로 최대의 고객이익 창출
                 </p>
               </li>
-              <li className="py-3 md:py-5 lg:px-5">
+              <li className="py-3 md:py-5 lg:px-5 border-b">
                 <h4 className="text-16 md:text-18">가치의 극대화</h4>
                 <p className="font-light pt-3">
                   경험이 풍부한 임직원, 부동산 관련업계를 통한 <br/>상호 소통 중점의 유기적 업무 플로우 구축
                 </p>
               </li>
-              <li className=" py-3 md:py-5 lg:px-5">
+              <li className=" py-3 md:py-5 lg:px-5 border-b">
                 <h4 className="text-16 md:text-18">신의 성실 윤리</h4>
                 <p className="font-light pt-3">
                   철저한 윤리규정 준수를 통한 투명한 업무 수행<br/>상충된 이해관계에 따른 공정한 조정 및 중재
