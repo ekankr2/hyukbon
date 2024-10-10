@@ -149,7 +149,8 @@ export default function Home() {
               <li className="py-3 md:py-5 lg:px-5 border-b">
                 <h4 className="text-16 md:text-18">가치의 극대화</h4>
                 <p className="font-light pt-3">
-                  경험이 풍부한 임직원, 부동산 관련업계를 통한 <br/>상호 소통 중점의 유기적 업무 플로우 구축
+                  회계 / 변호 / 변리 / 노무 등 고문단을 통한 리스크 예방 상호 소통
+                  중점의 유기적 업무 플로우 구축
                 </p>
               </li>
               <li className=" py-3 md:py-5 lg:px-5 border-b">
