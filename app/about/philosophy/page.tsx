@@ -44,7 +44,7 @@ function Page() {
           className="w-4/5 mx-auto"
         />
       </div>
-      <div className="md:mt-32">
+      <div className="md:mt-32 mt-16">
         <ul className="divide-y lg:divide-y-0 lg:divide-x text-14 flex flex-col lg:flex-row">
           <li className="pb-3 md:py-5 lg:pr-5">
             <h4 className="text-16 md:text-18">최대 이익 창출</h4>
